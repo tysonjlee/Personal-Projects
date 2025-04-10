@@ -1,34 +1,70 @@
 <html>
   <body>
     <main>
-      <h1>Tyson's Personal Portfolio</h1>
-      <p><a href = "https://github.com/tysonjlee" target = "_blank">My GitHub!</a></p>
-      <p>&nbsp;</p>
+      <!--Title-->
+      <section>
+        <h1>Tyson's Personal Portfolio</h1>
+        <p><em><strong>Note: This is simply a test page for now :)</strong></em></p>
+        <p><a href="https://github.com/tysonjlee" target="_blank"><strong>My GitHub!</strong></a></p>
+        <p>&nbsp;</p>
+      </section>
 
       <!--Opening-->
-       <section>
-        <h2>Who Am I?</h2>
+      <section>
+      <h2>Who Am I?</h2>
         <p>Hi! My name is Tyson, and I am a 2nd-year majoring in Computer Science at University of California, Davis.</p>
-        <img src = "https://www.thedogandfriends.com/assets/img/character/img-main_cat02.jpg" alt = "Headshot of Tyson"> 
-        <p>(Picture of me)</p>
+        <!--TODO: Reformat image size to something that makes sense-->
+        <figure>
+          <img src="https://www.thedogandfriends.com/assets/img/character/img-main_cat02.jpg" alt="Headshot of Tyson" style="width:250px;height:250px;"> 
+          <figcaption><em>(Picture of me)</em></figcaption>
+        </figure>
         <p>&nbsp;</p>
-       </section>
+      </section>
+
+      <!--TODO: Delete form later (just to practice using forms in HTML)-->
+      <!--Form-->
+      <section>
+        <h2>Form</h2>
+        <!--TODO: Finish form - ask who it is that's visiting my website-->
+        <form>
+          <fieldset>
+            <legend>What is your name?</legend>
+            <input type="text" name="name" placeholder="Your name" required>
+            <p>&nbsp;</p>
+            <legend>Who are you?</legend>
+            <label><input type="radio" name="who-are-you"> Friend</label>
+            <label><input type="radio" name="who-are-you"> Recruiter/Employer</label>
+            <label><input type="radio" name="who-are-you"> None of the above</label>
+            <button>Submit</button>
+          </fieldset>
+        </form>
+      </section>
 
       <!--Education-->
       <section>
         <h2>Education</h2>
+
         <!--TODO: Put UCD information here (school, GPA, expected graduation date, etc.)-->
-        <p>Courses:</p>
+        <p><strong>University of California, Davis (<em>2023 - 2027</em>)</strong></p>
+        <p><em>Bachelor of Science in Computer Science</em></p>
+
         <ul>
-          <li>ECS 020 (Discrete Mathematics For Computer Science)</li>
-          <li>ECS 036A (Programming & Problem Solving)</li>
-          <li>ECS 036B (Software Development & Object-Oriented Programming In C++)</li>
-          <li>ECS 036C (Data Structures, Algorithms, & Programming)</li>
-          <li>ECS 050 (Computer Organization & Machine-Dependent Programming)</li>
-          <li>ECS 098F (The Missing CS Class) - Linux environments, command line tools, shell scripting, regex, text processing (sed, awk), version control (git)</li>
-          <li>ECS 122A (Algorithm Design & Analysis)</li>
-          <li>ECS 132 (Probability & Statistical Modeling For Computer Science)</li>
+          <li>GPA: 3.927</li>
+          <li>
+            Courses:
+            <ul>
+              <li>ECS 020 (Discrete Mathematics For Computer Science)</li>
+              <li>ECS 036A (Programming & Problem Solving)</li>
+              <li>ECS 036B (Software Development & Object-Oriented Programming In C++)</li>
+              <li>ECS 036C (Data Structures, Algorithms, & Programming)</li>
+              <li>ECS 050 (Computer Organization & Machine-Dependent Programming)</li>
+              <li>ECS 098F (The Missing CS Class) - Linux environments, command line tools, shell scripting, regex, text processing (sed, awk), version control (git)</li>
+              <li>ECS 122A (Algorithm Design & Analysis)</li>
+              <li>ECS 132 (Probability & Statistical Modeling For Computer Science)</li>
+            </ul>
+          </li>
         </ul>
+
         <p>&nbsp;</p>
       </section>
 
@@ -37,6 +73,7 @@
         <h2>Experience</h2>
         <p>&nbsp;</p>
       </section>
+
       <!--Personal Projects-->
       <section>
         <h2>Personal Projects</h2>
@@ -46,20 +83,22 @@
       <!--Technical Skills-->
       <section>
         <h2>Technical Skills</h2>
-        <p>Languages: C++, C, Python, HTML</p>
-        <p>Frameworks:</p>
-        <p>Developer Tools:</p>
-        <p>Libraries:</p>
-        <p>Certifications:</p>
+        <p><strong>Languages:</strong> C/C++, Python, HTML/CSS, Assembly (x86)</p>
+        <p><strong>Developer Tools:</strong> Git, Docker, VS Code</p>
+        <p><strong>Frameworks:</strong></p>
+        <p><strong>Libraries:</strong></p>
+        <p><strong>Certifications: <em></em></strong></p>
         <p>&nbsp;</p>
       </section>
 
       <!--Footer-->
       <section>
         <p>&nbsp;</p>
-        <p>Tyson Jade Lee (he/him/his)</p>
-        <p>University of California, Davis</p>
-        <p>Computer Science 2027 </p>
+        <em>
+          <p>Tyson Jade Lee (he/him/his)</p>
+          <p>University of California, Davis</p>
+          <p>Computer Science 2027 </p>
+        </em>
       </section>
     </main>
   </body>
