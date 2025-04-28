@@ -37,7 +37,7 @@ This is mainly for my own personal use, but feel free to look around :)
 ## Technical Skills
 
 - Languages & Scripting: C/C++, Python, HTML/CSS, Bash (shell scripting), Assembly (x86)
-- Systems & Tools: Linux/Unix systems, Git, Docker, VS Code, Software & Unit Testing
+- Systems & Tools: Linux/Unix systems, Git, Docker, VS Code, Software & Unit Testing (GoogleTest, CUnit, gcov/gcovr)
 - Frameworks: (Fill out)
 - Libraries: (Fill out)
 - Certifications: (Fill out)
