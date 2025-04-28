@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <body>
     <main>
       <!--Title-->
@@ -31,12 +32,14 @@
             <legend>What is your name?</legend>
             <input type="text" name="name" placeholder="Your name" required>
             <p>&nbsp;</p>
-            <legend>Who are you?</legend>
-            <label><input type="radio" name="who-are-you"> Friend</label>
-            <label><input type="radio" name="who-are-you"> Recruiter/Employer</label>
-            <label><input type="radio" name="who-are-you"> None of the above</label>
-            <button>Submit</button>
           </fieldset>
+          <fieldset>
+            <legend>Who are you?</legend>
+            <label><input type="radio" name="who-are-you" required> Friend</label>
+            <label><input type="radio" name="who-are-you" required> Recruiter/Employer</label>
+            <label><input type="radio" name="who-are-you" required> None of the above</label>
+          </fieldset>
+          <button>Submit</button>
         </form>
       </section>
 
@@ -90,16 +93,15 @@
         <p><strong>Certifications: <em></em></strong></p>
         <p>&nbsp;</p>
       </section>
-
-      <!--Footer-->
-      <section>
-        <p>&nbsp;</p>
-        <em>
-          <p>Tyson Jade Lee (he/him/his)</p>
-          <p>University of California, Davis</p>
-          <p>Computer Science 2027 </p>
-        </em>
-      </section>
     </main>
+
+    <!--Footer-->
+    <footer>
+      <em>
+        <p>Tyson Jade Lee (he/him/his)</p>
+        <p>University of California, Davis</p>
+        <p>Computer Science 2027 </p>
+      </em>
+    </footer>
   </body>
 </html>
