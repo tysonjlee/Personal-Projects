@@ -1,5 +1,7 @@
 # Personal Portfolio Website 
 
+*The site is currently under heavy construction. Please come back when it is back up & styled properly :)*
+
 Welcome to my personal portfolio! 👋
 
 This site showcases who I am, what I do, and some of the projects I've worked on.
